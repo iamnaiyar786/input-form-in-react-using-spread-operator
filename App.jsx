@@ -63,7 +63,7 @@ const App =() =>{
     <div className='main'>
     <form onSubmit={submit}>
         <div>
-        <h1> Hello {fullName.fName} {fullName.lName} </h1>
+        <h1> Hello {fullName.fname} {fullName.lname} </h1>
         <p>{fullName.email}</p>
         <p>{fullName.phone}</p>
 
